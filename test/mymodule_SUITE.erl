@@ -164,4 +164,5 @@ test_mymodule() ->
     [{userdata,[{doc,"Testing the mymodule module"}]}].
 
 test_mymodule(_Config) ->
+    mymodule:basic_test(),
     ok.

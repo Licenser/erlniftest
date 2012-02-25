@@ -1,2 +1,6 @@
 *.beam
 *.*~
+ebin/*
+priv/*
+.eunit
+c_src/*.o
